@@ -1,5 +1,7 @@
 import 'package:flutter_geofence/geofence.dart';
 import 'package:mobx/mobx.dart';
+import '../sqfentity/model.dart';
+
 part 'geofence-locations.g.dart';
 
 class GeofenceLocations = _GeofenceLocationsBase with _$GeofenceLocations;
